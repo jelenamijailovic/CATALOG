@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.jhipster",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.1.0",
+    "applicationType": "microservice",
+    "baseName": "catalog",
+    "packageName": "org.jhipster",
+    "packageFolder": "org/jhipster",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "d9b51d9e81108669a5127546e5ea2b1dafd2b32b",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
